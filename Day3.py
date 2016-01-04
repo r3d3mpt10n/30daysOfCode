@@ -4,7 +4,7 @@
 # has prevented me from typing them all in here.
 
 def weird(N):
-    if N % 2 == 0 and 1 <= N <= 20 or N % 2 == 1 and 20 <= N:
+    if N % 2 == 0 and 1 <= N <= 20 or N % 2 == 0 and 20 <= N:
         i = "Not Weird"
     else:
         i = "Weird"
